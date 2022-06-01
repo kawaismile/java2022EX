@@ -9,17 +9,32 @@
  */
 public class Lingxing {
     public static void main(String[] args) {
-        for (int i = 1; i <= 6; i++){
+        for (int i = 1; i <= 13; i++){
+            //循环输出空格对齐
+            for(int m=13;m>=i;m--){
+                System.out.print(" ");
+                m--;
+            }
+            //循环输出星星
             for (int j = 1; j <= i; j++){
                 System.out.print("*");
             }
             System.out.println();
+            i++;
         }
-        for (int i = 6; i >= 1; i--){
+        //菱形下半部分
+        for (int i = 11; i >= 1; i--){
+            //输出下半部分每行的空格
+            for(int m=13;m>=i;m--){
+                System.out.print("0");
+                m--;
+            }
+            //输出下半部分每行的星星
             for (int j = 1; j <= i; j++){
-                System.out.print("*");
+                System.out.print(" ");
             }
             System.out.println();
+            i--;
         }
     }
 }
