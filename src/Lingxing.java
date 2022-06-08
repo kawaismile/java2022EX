@@ -5,7 +5,7 @@
  * @User:megumi
  * @Author: kawaismile
  * @Date: 2022/06/01/15:35
- * @Description:
+ * @Description:输出菱形
  */
 public class Lingxing {
     public static void main(String[] args) {
@@ -26,13 +26,14 @@ public class Lingxing {
         for (int i = 11; i >= 1; i--){
             //输出下半部分每行的空格
             for(int m=13;m>=i;m--){
-                System.out.print("0");
+                System.out.print(" ");
                 m--;
             }
             //输出下半部分每行的星星
             for (int j = 1; j <= i; j++){
-                System.out.print(" ");
+                System.out.print("*");
             }
+            //换行
             System.out.println();
             i--;
         }

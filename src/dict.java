@@ -4,11 +4,11 @@ import javax.swing.JOptionPane;
 
 import org.jsoup.Jsoup;
 /**
-* @Description:
-* @Param: 
-* @return: 
+* @Description: 字典翻译
+* @Param:
+* @return:
 * @Author: kawaismile
-* @Date: 2022/5/26
+* @Date: 2022/6/6
 */
 public class dict {
  

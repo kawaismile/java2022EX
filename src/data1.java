@@ -7,7 +7,7 @@ import java.util.Date;
  * @User:megumi
  * @Author: kawaismile
  * @Date: 2022/05/30/10:35
- * @Description:
+ * @Description:输出当前日期
  */
 public class data1 {
     public static void main(String[] args) {
