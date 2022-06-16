@@ -7,20 +7,15 @@ import java.util.Calendar;
  * @User:megumi
  * @Author: kawaismile
  * @Date: 2022/06/01/11:47
- * @Description:
+ * @Description:获取当前时间为星期几
  */
 public class Switch1 {
     public static void main(String[] args) {
-
-
+        //获取当前的日期
         var c = Calendar.getInstance();
-
         int w = c.get(Calendar.DAY_OF_WEEK);
-
         String wk = "";
-
         switch (w) {
-
             case 2:
                 wk = "Monday";
                 break;
@@ -46,7 +41,6 @@ public class Switch1 {
                 wk = "error";
                 break;
         }
-
         System.out.println(wk);
     }
 }
