@@ -15,6 +15,6 @@ public class Test1 {
         int[] a = {1, 2, 3};
         System.out.println(a[a.length - 3]);
         System.out.println(1.5%1!=0);
-
+        //接口方法一定出现在接口中，只能出
     }
 }

@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.*;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -24,6 +24,7 @@ public class GuessNum1 {
                 guess = scanner.nextInt();
                 count++;
             }
+            //输入不匹配异常，即输入的值数据类型与设置的值数据类型不能匹配
             catch (InputMismatchException e) {
                 if (scanner.nextLine().equals("exit")) {
                     System.out.println("退出游戏");
