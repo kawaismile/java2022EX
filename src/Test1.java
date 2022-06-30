@@ -9,12 +9,23 @@
  */
 
 public class Test1 {
-    // 创建一个Scanner对象
     public  static void main(String[] args) {
-        System.out.println(true || true && false);
-        int[] a = {1, 2, 3};
-        System.out.println(a[a.length - 3]);
-        System.out.println(1.5%1!=0);
-        //接口方法一定出现在接口中，只能出
+        //画出双色球
+        int[] red = new int[6];
+        int[] blue = new int[1];
+        for (int i = 0; i < red.length; i++) {
+            red[i] = (int) (Math.random() * 33 + 1);
+        }
+        for (int i = 0; i < blue.length; i++) {
+            blue[i] = (int) (Math.random() * 16 + 1);
+        }
+        for (int j : red) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
+        for (int j : blue) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
     }
 }

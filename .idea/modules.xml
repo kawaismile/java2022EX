@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hotel/Hotel.iml" filepath="$PROJECT_DIR$/Hotel/Hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageS/ImageS.iml" filepath="$PROJECT_DIR$/ImageS/ImageS.iml" />
       <module fileurl="file://$PROJECT_DIR$/New1/New1.iml" filepath="$PROJECT_DIR$/New1/New1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/New2/New2.iml" filepath="$PROJECT_DIR$/New2/New2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/New3/New3.iml" filepath="$PROJECT_DIR$/New3/New3.iml" />
       <module fileurl="file://$PROJECT_DIR$/ideacode.iml" filepath="$PROJECT_DIR$/ideacode.iml" />
     </modules>
   </component>

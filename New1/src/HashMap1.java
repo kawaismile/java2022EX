@@ -1,17 +1,20 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
 /**
  * Created with IntelliJ IDEA.
- * @Progect:IntelliJ IDEA
+ *
+ * @Package:IntelliJ IDEA
+ * @Project:ideacode
  * @User:megumi
  * @Author: kawaismile
- * @Date: 2022/06/17/10:56
- * @Description:HashMap的使用练习
+ * @Date: 2022/06/17/15:21
+ * @Description:
  */
-public class Map1 {
+public class HashMap1 {
     public static void main(String[] args) {
-        Map<Integer, String> map = new HashMap<>();
+        HashMap<Integer, String> map = new HashMap<>(6);
         map.put(1, "Java");
         map.put(2, "Python");
         map.put(3, "C++");
@@ -34,5 +37,6 @@ public class Map1 {
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println(entry.getKey() + "=" + entry.getValue());
         }
+        System.out.println("6/2(1+2)="+6/2*(1+2));
     }
 }

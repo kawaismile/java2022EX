@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="date" />
+      <option name="myAdditionalJavadocTags" value="date,Author:,User:megumi,Project:ideacode,Package:IntelliJ,Date:,Description:,Progect:IntelliJ,Description:链表练习,Description:HashMap的使用练习,Description:用于测试各种java的语法,Description:统计一个文本中字母出现的次数，只能统计小写字母,Description:拷贝目录,Description:得到图像的像素值,Description:给图像添加水印,Description:生成二维码,Description:统计java文件的行数" />
     </inspection_tool>
   </profile>
 </component>
